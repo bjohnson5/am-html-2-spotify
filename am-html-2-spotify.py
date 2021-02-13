@@ -22,7 +22,7 @@ import requests
 import re
 import configparser
 
-#======================================================================================Configure======================================================================================
+#======================================================================================Configure===================================================================================================
 config = configparser.ConfigParser()
 config.read("config.ini")
 playlist_name = config["DEFAULT"]["playlist_name"]
@@ -31,7 +31,7 @@ user_id = config["DEFAULT"]["user_id"]
 token = config["DEFAULT"]["token"]
 html_file = str(config["DEFAULT"]["html_file"])
 
-#======================================================================================Parse HTML======================================================================================
+#======================================================================================Parse HTML===================================================================================================
 with urllib.request.urlopen(html_file) as h:
 		html = h.read()
 parsed_html = BeautifulSoup(html, features="html.parser")
@@ -65,7 +65,7 @@ create_response = requests.post(url = create_endpoint_url, data = create_request
 playlist_id = create_response.json()['id']
 print("Create Playlist -- status code: {}".format(create_response.status_code))
 
-#======================================================================================Search for songs in Spotify===========================================y===========================================
+#======================================================================================Search for songs in Spotify======================================================================================
 uris = []
 for v in results.values():
 	# Song and Artist name from HTML file
@@ -115,10 +115,9 @@ for v in results.values():
 	# If there is not a next_endpoint and we did not find the song name, print the song name and artist that was not matched
 	if not found:
 		print("Not Found: song:{} artist:{}".format(song_name, artist_name))
-
 print("Search for Songs -- results: {}".format(len(uris)))
 
-#======================================================================================Add songs to new playlist======================================================================================
+#======================================================================================Add songs to new playlist===========================================================================================
 def divide_chunks(l, n):
     for i in range(0, len(l), n):  
         yield l[i:i + n]
