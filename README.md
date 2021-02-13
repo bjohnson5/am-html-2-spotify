@@ -34,9 +34,11 @@ Requirements
 Example:
 ========
 Use this config:
+```
 [DEFAULT]
 playlist_name = Ceej - Pt II
 playlist_description = Playlist created by python project: https://github.com/bjohnson5/am-html-2-spotify.git
 user_id = <your userid>
 token = <your token>
 html_file = file:////am-html-2-spotify/ceej-ptii.html
+```
