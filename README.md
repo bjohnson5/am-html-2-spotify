@@ -13,6 +13,11 @@ In order to issue queries and create/edit playlists you will need a spotify OAut
 Make sure to select the following scopes: playlist-modify-public, playlist-modify-private. This token will expire, so generate a new one right before each run.
 This link is also helpful for getting and testing the different endpoint and API calls.
 
+Apple Music API
+===============
+This all would be much easier if apple let anyone use thier AM api. They have one and that would allow people to query the data rather than scraping an html page. But you have to pay
+for the yearly apple developer account in order to get an authentication token to use the api.
+
 User ID
 =======
 You will also need your spotify user id, to get this share you profile and copy the link. The first string before the "=" is your user id.

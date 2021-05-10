@@ -35,15 +35,15 @@ html_file = str(config["DEFAULT"]["html_file"])
 with urllib.request.urlopen(html_file) as h:
 		html = h.read()
 parsed_html = BeautifulSoup(html, features="html.parser")
-song_name_wrappers = parsed_html.findAll('div', attrs={'class':"song-name-wrapper"})
+song_name_wrappers = parsed_html.findAll('div', attrs={'class':"songs-list-row__song-name-wrapper"}) #might be just song-name-wrapper
 
 results = {}
 count = 0
 for r in song_name_wrappers:
 	for div in r.findAll('div'):
-		if "song-name" in div.get("class"):
-			results[count] = {"song": div.text}
-		if "by-line" in div.get("class"):
+		if "song-name" in div.get("class")[0]: #might be a list, might be a string
+			results[count] = {"song": div.text} #might be a list, might be a string
+		if "by-line" in div.get("class")[0]:
 			if div.span.a:
 				results[count]["artist"] = div.span.a.text
 			else:
