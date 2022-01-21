@@ -47,3 +47,13 @@ user_id = <your userid>
 token = <your token>
 html_file = file:////am-html-2-spotify/html/ceej-ptii.html
 ```
+
+Run One Time:
+=============
+To run for one playlist, set the config values in config.ini and run the "run-onetime.sh" script.
+
+Run Bulk:
+=========
+To run for multiple playlists, create a file called links.csv with one playlist name and link separated by a comma on each line. Then use the "run-bulk.sh" script and pass your user id, token, and prefix. The prefix will be the name of the folder that is created under "html" and the html for all the playlists will be saved here.
+
+./run-bulk.sh <user_id> <token> <prefix>

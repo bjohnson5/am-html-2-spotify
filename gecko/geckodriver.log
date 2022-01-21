@@ -1,0 +1,54 @@
+1642547087651	geckodriver	INFO	Listening on 127.0.0.1:41623
+1642547087667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesfj9oM"
+1642547089766	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesfj9oM/search.json.mozlz4", (void 0)))
+1642547094027	Marionette	INFO	Listening on port 45135
+1642547094160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ghin.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vF3DwGiQdwtNbsVxkFzRL_iZiNaTmsYTTs4lOxRXugY.js line 1 > eval line 760 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ghin.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.ghin.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1642547240985	Marionette	INFO	Stopped listening on port 45135
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1642781828525	geckodriver	INFO	Listening on 127.0.0.1:60645
+1642781828543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMaJuwF"
+1642781830701	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMaJuwF/search.json.mozlz4", (void 0)))
+1642781835334	Marionette	INFO	Listening on port 45047
+1642781835449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+Exiting due to channel error.
+1642781917463	geckodriver	INFO	Listening on 127.0.0.1:55535
+1642781917481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehk5arz"
+1642781919571	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehk5arz/search.json.mozlz4", (void 0)))
+1642781923916	Marionette	INFO	Listening on port 44883
+1642781924057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642781941388	Marionette	INFO	Stopped listening on port 44883
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1642782067832	geckodriver	INFO	Listening on 127.0.0.1:57241
+1642782067848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerwR6tU"
+1642782069972	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerwR6tU/search.json.mozlz4", (void 0)))
+1642782074293	Marionette	INFO	Listening on port 40891
+1642782074448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642782080688	Marionette	INFO	Stopped listening on port 40891
+1642782169039	geckodriver	INFO	Listening on 127.0.0.1:59289
+1642782169056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehLVSzb"
+1642782171188	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehLVSzb/search.json.mozlz4", (void 0)))
+1642782175564	Marionette	INFO	Listening on port 41657
+1642782175657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://music.apple.com/assets/vendor-c966896b8d6debcb14df90036ed0cfac.js, line 5347: unreachable code after return statement
+1642782215510	Marionette	INFO	Stopped listening on port 41657
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

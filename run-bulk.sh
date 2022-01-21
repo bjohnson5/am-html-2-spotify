@@ -1,0 +1,1 @@
+PATH=$PATH:gecko python3 bulk-convert.py $1 $2 $3
